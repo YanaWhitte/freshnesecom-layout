@@ -1,0 +1,601 @@
+body,
+span,
+h1,
+h2,
+h3,
+ul,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #151515;
+}
+
+a {
+    color: #6A983C;
+}
+
+.container {
+    padding: 0 45px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+header.small-header {
+    padding: 16px 45px;
+    justify-content: space-between;
+    font: normal normal 400 12px/16px "Open Sans";
+    border-bottom: 1px solid rgba(21, 21, 21, 0.05);
+}
+
+header.small-header a {
+    text-decoration: none;
+}
+
+header.small-header .left .info {
+    margin-left: 33px;
+}
+
+header.small-header .right .menu-item {
+    margin-left: 38px;
+}
+
+header.big-header {
+    padding: 40px 45px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.big-header .search {
+    padding: 10px 16px;
+    background: #F9F9F9;
+    border: 1px solid #D1D1D1;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+header.big-header .search .select {
+    cursor: pointer;
+    padding-right: 24px;
+    border-right: 1px solid #D1D1D1;
+}
+
+header.big-header .search .select p {
+    margin-right: 6px;
+    font: normal normal 700 15px/22px "Poppins";
+}
+
+header.big-header .search input {
+    margin-right: 12px;
+    margin-left: 24px;
+    width: 262px;
+    display: block;
+    outline: none;
+    border: none;
+    background: #F9F9F9;
+}
+
+header.big-header .search input::placeholder {
+    font: normal normal 400 14px/19px "Open Sans";
+    color: #A9A9A9;
+}
+
+header.big-header .search .search-icon {
+    cursor: pointer;
+}
+
+header.big-header .user-panel {
+    align-items: center;
+}
+
+header.big-header .user-panel img {
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+header.big-header .user-panel .cart {
+    position: relative;
+    font: normal normal 600 12px/18px "Poppins";
+    color: white;
+}
+
+header.big-header .user-panel .cart-value {
+    position: absolute;
+    cursor: pointer;
+    top: 13px;
+    left: 34px;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E6704B;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+}
+
+nav.main-nav {
+    padding: 16px 45px;
+    background: #F9F9F9;
+    font: normal normal 500 15px/22px "Poppins";
+}
+
+nav.main-nav .menu-item {
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+nav.main-nav .menu-item img {
+    margin-left: 2px;
+}
+
+.category-menu {
+    padding: 64px 45px;
+}
+
+.category-menu .menu {
+    width: 270px;
+}
+
+.category-menu .title {
+    margin-bottom: 16px;
+    font: normal normal 600 18px/27px "Poppins";
+}
+
+.category-menu ul {
+    list-style: none;
+}
+
+.category-menu ul li {
+    margin-bottom: 12px;
+}
+
+.category-menu ul .category-item {
+    font: normal normal 400 14px/19px "Open Sans";
+}
+
+.category-menu .more-btn {
+    cursor: pointer;
+    width: 179px;
+    justify-content: center;
+    margin-top: 48px;
+    padding: 12.5px;
+    background: #F5F5F5;
+    border-radius: 12px;
+}
+
+.category-menu .more-btn a {
+    margin-right: 6px;
+    font: normal normal 700 15px/22px "Poppins";
+    text-decoration: none;
+    color: #151515;
+}
+
+.category-menu .green-card-row {
+    flex: 1;
+    justify-content: space-between;
+}
+
+.category-menu .card {
+    flex: 1;
+    margin-left: 32px;
+    width: 419px;
+    height: 280px;
+    background: #F4F8EC url('img/vegetables-back.png') repeat;
+    border-radius: 12px;
+}
+
+.category-menu .card .card-content {
+    margin-top: 48px;
+    margin-left: 33px;
+}
+
+.category-menu .card .subfocus {
+    margin-bottom: 8px;
+    font: normal normal 600 12px/18px "Poppins";
+    color: #6A983C;
+}
+
+.category-menu .card .card-title {
+    font: normal normal 600 22px/33px "Poppins";
+}
+
+.category-menu .card .recepies-btn {
+    cursor: pointer;
+    margin-top: 94px;
+    width: 163px;
+    justify-content: center;
+    padding: 12px 0;
+    border: 2px solid #92C064;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.category-menu .card .recepies-btn a {
+    margin-right: 6px;
+    font: normal normal 700 15px/22px "Poppins";
+    color: #151515;
+    text-decoration: none;
+}
+
+.category-menu .products-btn {
+    width: 167px;
+}
+
+.product-card {
+    flex: 1;
+    margin-left: 32px;
+    padding: 16px;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+}
+
+.product-card .img-sub {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 180px;
+    background: #F9F9F9;
+    border-radius: 12px;
+}
+
+.product-card .discount {
+    margin: 12px;
+    padding: 0 8px;
+    display: inline-block;
+    font: normal normal 600 12px/18px "Poppins";
+    color: #6A983C;
+    background: #F4F8EC;
+    border-radius: 12px;
+}
+
+.product-card .product-title {
+    margin-top: 16px;
+    font: normal normal 500 15px/22px "Poppins";
+}
+
+.product-card .description {
+    margin-top: 4px;
+    margin-bottom: 16px;
+    font: normal normal 400 12px/16px "Open Sans";
+    color: #575757;
+}
+
+.product-card .price-row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-card .price-row .price {
+    font: normal normal 600 18px/27px "Poppins";
+}
+
+.product-card .price-row .old-price {
+    font: normal normal 600 12px/18px "Poppins";
+    color: #A9A9A9;
+    text-decoration: line-through;
+}
+
+.product-card .price-row .buy-now-btn {
+    display: inline-block;
+    padding: 6.5px 12px;
+    text-decoration: none;
+    font: normal normal 700 15px/22px "Poppins";
+    color: #ffffff;
+    background: #6A983C;
+    border: 2px solid #46760A;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.comment-section {
+    padding: 64px 0;
+}
+
+.section-title-row {
+    margin-bottom: 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title-row .section-title {
+    font: normal normal 600 18px/27px "Poppins";
+}
+
+.section-title-row .section-btn {
+    cursor: pointer;
+}
+
+.section-title-row .section-btn a {
+    margin-right: 6px;
+    text-decoration: none;
+    font: normal normal 700 15px/22px "Poppins";
+    color: #151515;
+}
+
+.comment-section .comment-row {
+    height: 228px;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.comment-section .comment-row .gradient {
+    position: absolute;
+    top: 0;
+    width: 88px;
+    height: 227px;
+    z-index: 3;
+}
+
+.comment-section .comment-row .left-gradient {
+    left: 0;
+    background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.7;
+}
+
+.comment-section .comment-row .right-gradient {
+    right: 0;
+    background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    opacity: 0.7;
+    transform: rotate(180deg);
+}
+
+.comment-section .flip {
+    cursor: pointer;
+    position: absolute;
+    top: 89px;
+    z-index: 4;
+}
+
+.comment-section .flip.arrow-left {
+    left: 0;
+}
+
+.comment-section .flip.arrow-right {
+    right: 0;
+}
+
+.comment-section .comment-card {
+    flex-shrink: 0;
+    margin-right: 32px;
+    padding: 24px 32px 0;
+    position: relative;
+    width: 369px;
+    height: 198px;
+    text-align: center;
+    border: 1px solid #F1F1F1;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.comment-section .comment-card:nth-last-child(2) {
+    margin-right: 0;
+}
+
+.comment-section .comment-card .comment-text {
+    margin-bottom: 24px;
+    font: normal normal 500 15px/22px "Poppins";
+}
+
+.comment-section .comment-card .comment-name {
+    font: normal normal 600 12px/18px "Poppins";
+    color: #A9A9A9;
+}
+
+.comment-section .comment-card .img-container {
+    padding-top: 20px;
+    justify-content: center;
+    position: relative;
+}
+
+.comment-section .comment-card .comment-avatar {
+    display: block;
+    position: absolute;
+    top: 20px;
+}
+
+.products-section {
+    padding: 64px 45px;
+}
+
+.products-section .products-row {
+    justify-content: space-between;
+}
+
+.products-section .product-card:first-of-type {
+    margin-left: 0;
+}
+
+.blog-post-section {
+    padding: 64px 45px;
+}
+
+.blog-post-section .posts-row {
+    justify-content: space-between;
+}
+
+.blog-post-section .posts-row .column .tag {
+    padding: 0 8px;
+    display: inline-block;
+    cursor: pointer;
+    font: normal normal 600 12px/18px "Poppins";
+    color: #6A983C;
+    background: #F4F8EC;
+    border-radius: 12px;
+}
+
+.blog-post-section .posts-row .column-1 {
+    flex: 4;
+    position: relative;
+    margin-right: 31.5px;
+    padding: 24px;
+    height: 400px;
+    justify-content: space-between;
+    background: url('img/blog-img-1.png') no-repeat center;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.blog-post-section .posts-row .column-1 .bottom {
+    z-index: 3;
+}
+
+.blog-post-section .posts-row .column-1 .post-title {
+    margin-bottom: 8px;
+    font: normal normal 600 22px/33px "Poppins";
+    color: #FFFFFF;
+}
+
+.blog-post-section .posts-row .column-1 .author-row {
+    align-items: center;
+    font: normal normal 400 12px/16px "Open Sans";
+    color: #FFFFFF;
+}
+
+.blog-post-section .posts-row .column-1 .author-row .author-name {
+    margin-left: 8px;
+    margin-right: 16px;
+}
+
+.blog-post-section .posts-row .column-1 .gradient {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 206px;
+    width: 100%;
+    background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 12px;
+}
+
+.blog-post-section .posts-row .column-2 {
+    flex: 2;
+    margin-right: 31.5px;
+}
+
+.blog-post-section .posts-row .column-2 img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-post-section .posts-row .column-2 .tag {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.blog-post-section .posts-row .column-2 .post-title {
+    /* min-width: 269px; */
+    margin-bottom: 16px;
+    font: normal normal 600 18px/27px "Poppins";
+}
+
+.blog-post-section .posts-row .column-2 .author-row {
+    align-items: center;
+    font: normal normal 400 12px/16px "Open Sans";
+}
+
+.blog-post-section .posts-row .column-2 .author-row .author-name {
+    margin-right: 16px;
+}
+
+.blog-post-section .posts-row .column-3 {
+    flex: 3;
+}
+
+.blog-post-section .posts-row .column-3 .info-row {
+    margin-bottom: 32px;
+    align-items: center;
+}
+
+.blog-post-section .posts-row .column-3 .row:last-of-type {
+    margin-bottom: 0;
+}
+
+.blog-post-section .posts-row .column-3 .info-column {
+    flex: 1;
+}
+
+.blog-post-section .posts-row .column-3 .post-title {
+    margin-bottom: 16px;
+    width: 249px;
+    font: normal normal 500 15px/22px "Poppins";
+}
+
+.blog-post-section .posts-row .column-3 .author-row {
+    align-items: center;
+    font: normal normal 400 12px/16px "Open Sans";
+}
+
+.blog-post-section .posts-row .column-3 .author-row .author-name {
+    margin-right: 16px;
+}
+
+.blog-post-section .posts-row .column-3 img {
+    margin-left: 24px;
+}
+
+footer {
+    padding: 64px 45px;
+}
+
+footer .links-section {
+    justify-content: space-between;
+}
+
+footer .links-section .title {
+    margin-bottom: 16px;
+    font: normal normal 600 18px/27px "Poppins";
+}
+
+footer .links-section ul {
+    list-style: none;
+}
+
+footer .links-section ul li {
+    margin-bottom: 16px;
+}
+
+footer .links-section .link {
+    text-decoration: none;
+    font: normal normal 400 14px/19px "Open Sans";
+}
+
+footer .tags-section {
+    margin-top: 48px;
+    margin-bottom: 28px;
+}
+
+footer .tags-section .tags-title {
+    margin-bottom: 16px;
+    font: normal normal 600 18px/27px "Poppins";
+}
+
+footer .tags-section .tags-list {
+    padding-right: 86px;
+    flex-wrap: wrap;
+}
+
+footer .tags-section .tag {
+    cursor: pointer;
+    margin-right: 16px;
+    margin-bottom: 20px;
+    padding: 4px 10px;
+    font: normal normal 600 12px/18px "Poppins";
+    background: #F5F5F5;
+    border-radius: 12px;
+}
+
+footer .copyright {
+    font: normal normal 400 16px/19px "Open Sans";
+}
