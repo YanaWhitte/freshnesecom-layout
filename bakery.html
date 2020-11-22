@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+
+</html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bakery</title>
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="small-header container row">
+        <div class="left row">
+            <a href="#" class="chat">Chat with us</a>
+            <p class="info">+420 336 775 664</p>
+            <p class="info">info@freshnesecom.com</p>
+        </div>
+        <div class="right">
+            <a href="#" class="menu-item">Blog</a>
+            <a href="#" class="menu-item">About Us</a>
+            <a href="#" class="menu-item">Careers</a>
+        </div>
+    </header>
+
+    <header class="big-header container row">
+        <div class="logo-container">
+            <a href="/index.html"><img src="img/logo.svg" alt="logo"></a>
+        </div>
+        <div class="search row">
+            <div class="select row">
+                <p class="select-category">All categories</p>
+                <img src="icons/arrow-down-more.svg" alt="select">
+            </div>
+            <input type="text" class="search-input" placeholder="Search Products, categories ...">
+            <img src="icons/search-icon.svg" alt="search icon" class="search-icon" draggable="false">
+        </div>
+        <div class="user-panel row">
+            <div class="user-icon">
+                <img src="icons/user-icon.svg" alt="user icon">
+            </div>
+            <div class="cart">
+                <div class="cart-value">4</div>
+                <img src="icons/cart-icon.svg" alt="cart">
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav container row">
+        <div class="menu-item row">
+            <a href="/bakery.html">Bakery</a>
+            <img src="icons/arrow-small-down.svg" alt="arrow">
+        </div>
+        <div class="menu-item row">
+            <a href="fruit-and-vegetables.html">Fruit and vegetables</a>
+            <img src="icons/arrow-small-down.svg" alt="">
+        </div>
+        <div class="menu-item row">
+            <a href="meat-and-fish.html">Meat and fish</a>
+            <img src="icons/arrow-small-down.svg" alt="">
+        </div>
+        <div class="menu-item row">
+            <a href="drinks.html">Drinks</a>
+            <img src="icons/arrow-small-down.svg" alt="">
+        </div>
+        <div class="menu-item row">
+            <a href="kitchen.html">Kitchen</a>
+            <img src="icons/arrow-small-down.svg" alt="">
+        </div>
+        <div class="menu-item row">
+            <a href="special-nutrition.html">Special nutrition</a>
+            <img src="icons/arrow-small-down.svg" alt="">
+        </div>
+        <div class="menu-item row">
+            <a href="baby.html">Baby</a>
+            <img src="icons/arrow-small-down.svg" alt="">
+        </div>
+        <div class="menu-item row">
+            <a href="pharmacy.html">Pharmacy</a>
+            <img src="icons/arrow-small-down.svg" alt="">
+        </div>
+    </nav>
+
+    <main>
+        <section class="path-section container row">
+            <a href="/index.html" class="home">Homepage</a>
+            <p class="slash">/</p>
+            <p class="sel-cat">Bakery</p>
+        </section>
+
+        <section class="title-nav container row">
+            <div>
+                <h1 class="title">Bakery</h1>
+            </div>
+            <div class="right-row row">
+                <div class="row">
+                    <label class="block view row">
+                      <input type="radio" name="list"/>
+                      <div class="grid-view"></div>
+                      <p class="view-text">Grid view</p>
+                    </label>
+                    <label class="block view row">
+                      <input type="radio" name="list" checked />
+                      <div class="list-view"></div>
+                      <p class="view-text">List view</p>
+                    </label>
+                </div>
+                <div class="block row">
+                    <div class="green-tag">117</div>
+                    <p>Products</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-filtres container">
+            <div class="row">
+                <div class="row filter-block">
+                    <label class="label-radio row">
+                        <input type="radio" name="filter-text"/>
+                        <div class="radio-icon"></div>
+                        <p class="radio-name">Filter text</p>
+                      </label>
+                    <label class="label-radio row">
+                        <input type="radio" name="filter-text" checked />
+                        <div class="radio-icon"></div>
+                        <p class="radio-name">Filter text</p>
+                      </label>
+                </div>
+
+                <div class="row filter-block">
+                    <label class="check-filter row">
+                        <input type="checkbox" name="check-filter"/>
+                        <div class="check-icon"></div>
+                        <p class="check-name">Filter</p>
+                      </label>
+                    <label class="nbm-filter row">
+                        <input type="checkbox" name="check-filter"/>
+                        <p class="tag-name">Nbm</p>
+                      </label>
+                </div>
+
+                <div class="row filter-block">
+                    <label class="check-filter row">
+                       <input type="checkbox" name="check-filter" />
+                       <div class="check-icon"></div>
+                       <p class="check-name">Filter</p>
+                    </label>
+                    <label class="nbm-filter row">
+                        <input type="checkbox" name="check-filter"/>
+                        <p class="tag-name">Nbm</p>
+                    </label>
+                </div>
+
+                <div class="row filter-block">
+                    <div class="left row">
+                        <label class="check-filter row">
+                           <input type="checkbox" name="check-filter" checked/>
+                           <div class="check-icon"></div>
+                           <p class="check-name">Filter</p>
+                        </label>
+                        <label class="nbm-filter row">
+                           <input type="checkbox" name="check-filter"/>
+                           <p class="tag-name">12</p>
+                      </label>
+                    </div>
+                    <div class="select-block right row">
+                        <p>Select</p>
+                        <img src="icons/select-icon.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="tags-row row">
+                <p class="caption">Applied filtres:</p>
+                <label class="label-tag row">
+                    <input type="checkbox" name="check-tag"/>
+                    <p class="tag-name">Selected Filter</p>
+                    <div class="cross-icon"></div>
+                </label>
+                <label class="label-tag row">
+                    <input type="checkbox" name="check-tag"/>
+                    <p class="tag-name">Selected Filter</p>
+                    <div class="cross-icon"></div>
+                </label>
+            </div>
+        </section>
+
+        <section class="main-prod-section row">
+            <div class="product-filters column">
+                <div class="filters-column categories column">
+                    <h2 class="filter-title">Categories</h2>
+                    <div class="cat-name row">
+                        <p class="name">Category name</p>
+                        <p class="value green-tag">320</p>
+                    </div>
+                    <div class="cat-name row">
+                        <p class="name">Category name</p>
+                        <p class="value green-tag">112</p>
+                    </div>
+                    <div class="cat-name row">
+                        <p class="name">Category name</p>
+                        <p class="value green-tag">32</p>
+                    </div>
+                    <div class="cat-name row">
+                        <p class="name">Category name</p>
+                        <p class="value green-tag">48</p>
+                    </div>
+                </div>
+
+                <div class="filters-column brands column">
+                    <h2 class="filter-title">Brands</h2>
+                    <label class="check-filter row">
+                        <input type="checkbox" name="check-filter"/>
+                        <div class="check-icon"></div>
+                        <p class="check-name">Filter by brand item</p>
+                      </label>
+                    <label class="check-filter row">
+                        <input type="checkbox" name="check-filter" checked/>
+                        <div class="check-icon"></div>
+                        <p class="check-name">Filter by brand item</p>
+                      </label>
+                    <label class="check-filter row">
+                        <input type="checkbox" name="check-filter" checked/>
+                        <div class="check-icon"></div>
+                        <p class="check-name">Filter by brand item</p>
+                      </label>
+                    <label class="check-filter row">
+                        <input type="checkbox" name="check-filter"/>
+                        <div class="check-icon"></div>
+                        <p class="check-name">Filter by brand item</p>
+                      </label>
+                    <label class="check-filter row">
+                        <input type="checkbox" name="check-filter"/>
+                        <div class="check-icon"></div>
+                        <p class="check-name">Filter by brand item</p>
+                      </label>
+                </div>
+
+                <div class="filters-column rating column">
+                    <h2 class="filter-title">Rating</h2>
+                    <label class="check-filter row">
+                        <input type="checkbox" name="check-filter"/>
+                        <div class="check-icon"></div>
+                        <div class="stars row">
+                            <img src="icons/star-yellow.svg" alt="star" class="star">
+                            <img src="icons/star-yellow.svg" alt="star" class="star">
+                            <img src="icons/star-yellow.svg" alt="star" class="star">
+                            <img src="icons/star-yellow.svg" alt="star" class="star">
+                            <img src="icons/star-yellow.svg" alt="star" class="star">
+                        </div>
+                      </label>
+                    <label class="check-filter row">
+                        <input type="checkbox" name="check-filter"/>
+                        <div class="check-icon"></div>
+                        <div class="stars row">
+                            <img src="icons/star-yellow.svg" alt="star" class="star">
+                            <img src="icons/star-yellow.svg" alt="star" class="star">
+                            <img src="icons/star-yellow.svg" alt="star" class="star">
+                            <img src="icons/star-yellow.svg" alt="star" class="star">
+                            <img src="icons/star-transparent.svg" alt="star" class="star">
+                        </div>
+                      </label>
+                    <label class="check-filter row">
+                        <input type="checkbox" name="check-filter"/>
+                        <div class="check-icon"></div>
+                        <div class="stars row">
+                            <img src="icons/star-yellow.svg" alt="star" class="star">
+                            <img src="icons/star-yellow.svg" alt="star" class="star">
+                            <img src="icons/star-yellow.svg" alt="star" class="star">
+                            <img src="icons/star-transparent.svg" alt="star" class="star">
+                            <img src="icons/star-transparent.svg" alt="star" class="star">
+                        </div>
+                      </label>
+                    <label class="check-filter row">
+                        <input type="checkbox" name="check-filter"/>
+                        <div class="check-icon"></div>
+                        <div class="stars row">
+                            <img src="icons/star-yellow.svg" alt="star" class="star">
+                            <img src="icons/star-yellow.svg" alt="star" class="star">
+                            <img src="icons/star-transparent.svg" alt="star" class="star">
+                            <img src="icons/star-transparent.svg" alt="star" class="star">
+                            <img src="icons/star-transparent.svg" alt="star" class="star">
+                        </div>
+                      </label>
+                    <label class="check-filter row">
+                        <input type="checkbox" name="check-filter"/>
+                        <div class="check-icon"></div>
+                        <div class="stars row">
+                            <img src="icons/star-yellow.svg" alt="star" class="star">
+                            <img src="icons/star-transparent.svg" alt="star" class="star">
+                            <img src="icons/star-transparent.svg" alt="star" class="star">
+                            <img src="icons/star-transparent.svg" alt="star" class="star">
+                            <img src="icons/star-transparent.svg" alt="star" class="star">
+                        </div>
+                      </label>
+                </div>
+
+                <div class="filters-column price column">
+                    <h2 class="filter-title">Price</h2>
+                    <div class="slider row">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+                    <div class="minmax row">
+                        <div class="from column">
+                            <p>Min</p>
+                            <input type="text" name="price" placeholder="0">
+                        </div>
+                        <div class="hyphen column">-</div>
+                        <div class="to column">
+                            <p>Max</p>
+                            <input type="text" name="price" placeholder="000">
+                        </div>
+                    </div>
+                    <div class="button-row">
+                        <a href="#" class="green-btn">Apply</a>
+                        <a href="#" class="reset-btn">Reset</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-cards column">
+                <div class="big-product-card row">
+                    <div class="img-container">
+                        <div class="img-sub"></div>
+                    </div>
+                    <div class="card-info row">
+                        <div class="chara-info column">
+                            <h3 class="product-name">Product title</h3>
+                            <p class="description">Space for a small product description</p>
+                            <div class="rating row">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black-transparent.svg" alt="star">
+                            </div>
+                            <div class="basic-info row">
+                                <div class="column column-1">
+                                    <p>Fresheness</p>
+                                    <p>Farm</p>
+                                    <p>Delivery</p>
+                                    <p>Stock</p>
+                                </div>
+                                <div class="column">
+                                    <p><span class="green">New</span> (Extra fresh)</p>
+                                    <p>Grocery Tarm Fields</p>
+                                    <p>Europe</p>
+                                    <p class="green">320 pcs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-info column">
+                            <div class="price-div">
+                                <p class="price">36.99 USD</p>
+                                <p class="old-price">48.56</p>
+                            </div>
+                            <div class="delivery-info">
+                                <p class="ship-bold">Free Shipping</p>
+                                <p>Delivery in 1 day</p>
+                            </div>
+                            <div class="buttons-div">
+                                <div class="detail-btn row">
+                                    <a href="product-info.html">Product Detail</a>
+                                    <img src="icons/arrow-right-white.svg" alt="arrow">
+                                </div>
+                                <div class="wish-btn row">
+                                    <img src="icons/heart-icon.svg" alt="heart">
+                                    <a href="#">Add to wish list</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="big-product-card row">
+                    <div class="img-container">
+                        <div class="img-sub"></div>
+                    </div>
+                    <div class="card-info row">
+                        <div class="chara-info column">
+                            <h3 class="product-name">Product title</h3>
+                            <p class="description">Space for a small product description</p>
+                            <div class="rating row">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black-transparent.svg" alt="star">
+                            </div>
+                            <div class="basic-info row">
+                                <div class="column column-1">
+                                    <p>Fresheness</p>
+                                    <p>Farm</p>
+                                    <p>Delivery</p>
+                                    <p>Stock</p>
+                                </div>
+                                <div class="column">
+                                    <p><span class="green">New</span> (Extra fresh)</p>
+                                    <p>Grocery Tarm Fields</p>
+                                    <p>Europe</p>
+                                    <p class="green">320 pcs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-info column">
+                            <div class="price-div">
+                                <p class="price">36.99 USD</p>
+                                <p class="old-price">48.56</p>
+                            </div>
+                            <div class="delivery-info">
+                                <p class="ship-bold">Free Shipping</p>
+                                <p>Delivery in 1 day</p>
+                            </div>
+                            <div class="buttons-div">
+                                <div class="detail-btn row">
+                                    <a href="product-info.html">Product Detail</a>
+                                    <img src="icons/arrow-right-white.svg" alt="arrow">
+                                </div>
+                                <div class="wish-btn row">
+                                    <img src="icons/heart-icon.svg" alt="heart">
+                                    <a href="#">Add to wish list</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="big-product-card row">
+                    <div class="img-container">
+                        <div class="img-sub"></div>
+                    </div>
+                    <div class="card-info row">
+                        <div class="chara-info column">
+                            <h3 class="product-name">Product title</h3>
+                            <p class="description">Space for a small product description</p>
+                            <div class="rating row">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black-transparent.svg" alt="star">
+                            </div>
+                            <div class="basic-info row">
+                                <div class="column column-1">
+                                    <p>Fresheness</p>
+                                    <p>Farm</p>
+                                    <p>Delivery</p>
+                                    <p>Stock</p>
+                                </div>
+                                <div class="column">
+                                    <p><span class="green">New</span> (Extra fresh)</p>
+                                    <p>Grocery Tarm Fields</p>
+                                    <p>Europe</p>
+                                    <p class="green">320 pcs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-info column">
+                            <div class="price-div">
+                                <p class="price">36.99 USD</p>
+                                <p class="old-price">48.56</p>
+                            </div>
+                            <div class="delivery-info">
+                                <p class="ship-bold">Free Shipping</p>
+                                <p>Delivery in 1 day</p>
+                            </div>
+                            <div class="buttons-div">
+                                <div class="detail-btn row">
+                                    <a href="product-info.html">Product Detail</a>
+                                    <img src="icons/arrow-right-white.svg" alt="arrow">
+                                </div>
+                                <div class="wish-btn row">
+                                    <img src="icons/heart-icon.svg" alt="heart">
+                                    <a href="#">Add to wish list</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="big-product-card row">
+                    <div class="img-container">
+                        <div class="img-sub"></div>
+                    </div>
+                    <div class="card-info row">
+                        <div class="chara-info column">
+                            <h3 class="product-name">Product title</h3>
+                            <p class="description">Space for a small product description</p>
+                            <div class="rating row">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black-transparent.svg" alt="star">
+                            </div>
+                            <div class="basic-info row">
+                                <div class="column column-1">
+                                    <p>Fresheness</p>
+                                    <p>Farm</p>
+                                    <p>Delivery</p>
+                                    <p>Stock</p>
+                                </div>
+                                <div class="column">
+                                    <p><span class="green">New</span> (Extra fresh)</p>
+                                    <p>Grocery Tarm Fields</p>
+                                    <p>Europe</p>
+                                    <p class="green">320 pcs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-info column">
+                            <div class="price-div">
+                                <p class="price">36.99 USD</p>
+                                <p class="old-price">48.56</p>
+                            </div>
+                            <div class="delivery-info">
+                                <p class="ship-bold">Free Shipping</p>
+                                <p>Delivery in 1 day</p>
+                            </div>
+                            <div class="buttons-div">
+                                <div class="detail-btn row">
+                                    <a href="product-info.html">Product Detail</a>
+                                    <img src="icons/arrow-right-white.svg" alt="arrow">
+                                </div>
+                                <div class="wish-btn row">
+                                    <img src="icons/heart-icon.svg" alt="heart">
+                                    <a href="#">Add to wish list</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="big-product-card row">
+                    <div class="img-container">
+                        <div class="img-sub"></div>
+                    </div>
+                    <div class="card-info row">
+                        <div class="chara-info column">
+                            <h3 class="product-name">Product title</h3>
+                            <p class="description">Space for a small product description</p>
+                            <div class="rating row">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black.svg" alt="star">
+                                <img src="icons/star-black-transparent.svg" alt="star">
+                            </div>
+                            <div class="basic-info row">
+                                <div class="column column-1">
+                                    <p>Fresheness</p>
+                                    <p>Farm</p>
+                                    <p>Delivery</p>
+                                    <p>Stock</p>
+                                </div>
+                                <div class="column">
+                                    <p><span class="green">New</span> (Extra fresh)</p>
+                                    <p>Grocery Tarm Fields</p>
+                                    <p>Europe</p>
+                                    <p class="green">320 pcs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price-info column">
+                            <div class="price-div">
+                                <p class="price">36.99 USD</p>
+                                <p class="old-price">48.56</p>
+                            </div>
+                            <div class="delivery-info">
+                                <p class="ship-bold">Free Shipping</p>
+                                <p>Delivery in 1 day</p>
+                            </div>
+                            <div class="buttons-div">
+                                <div class="detail-btn row">
+                                    <a href="product-info.html">Product Detail</a>
+                                    <img src="icons/arrow-right-white.svg" alt="arrow">
+                                </div>
+                                <div class="wish-btn row">
+                                    <img src="icons/heart-icon.svg" alt="heart">
+                                    <a href="#">Add to wish list</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="page-nav row">
+            <div class="pages row">
+                <p class="caption">Page:</p>
+                <a href="#" class="page">1</a>
+                <a href="#" class="page">2</a>
+                <a href="#" class="page active">3</a>
+                <a href="#" class="page">4</a>
+            </div>
+            <div class="green-btn row">
+                <a href="#">Show more products</a>
+                <img src="icons/arrow-down-white.svg" alt="arrow">
+            </div>
+            <div class="value-prod row">
+                <p class="green-tag">336</p>
+                <p class="name">Products</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="links-section row">
+            <div class="column">
+                <p class="title">Get in touch</p>
+                <ul>
+                    <li><a href="#" class="link">About Us</a></li>
+                    <li><a href="#" class="link">Careers</a></li>
+                    <li><a href="#" class="link">Press Releases</a></li>
+                    <li><a href="#" class="link">Blog</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <p class="title">Connections</p>
+                <ul>
+                    <li><a href="#" class="link">Facebook</a></li>
+                    <li><a href="#" class="link">Twitter</a></li>
+                    <li><a href="#" class="link">Instagram</a></li>
+                    <li><a href="#" class="link">Youtube</a></li>
+                    <li><a href="#" class="link">LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <p class="title">Earnings</p>
+                <ul>
+                    <li><a href="#" class="link">Become an Affiliate</a></li>
+                    <li><a href="#" class="link">Advertise your product</a></li>
+                    <li><a href="#" class="link">Sell on Market</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <p class="title">Account</p>
+                <ul>
+                    <li><a href="#" class="link">Your account</a></li>
+                    <li><a href="#" class="link">Returns Centre</a></li>
+                    <li><a href="#" class="link">100 % purchase protection</a></li>
+                    <li><a href="#" class="link">Chat with us</a></li>
+                    <li><a href="#" class="link">Help</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="tags-section">
+            <p class="tags-title">Product tags</p>
+            <div class="tags-list row">
+                <p class="tag">Beans</p>
+                <p class="tag">Carrots</p>
+                <p class="tag">Apples</p>
+                <p class="tag">Garlic</p>
+                <p class="tag">Mushrooms</p>
+                <p class="tag">Tomatoes</p>
+                <p class="tag">Chilli peppers</p>
+                <p class="tag">Broccoli</p>
+                <p class="tag">Watermelons</p>
+                <p class="tag">Oranges</p>
+                <p class="tag">Bananas</p>
+                <p class="tag">Grapes</p>
+                <p class="tag">Cherries</p>
+                <p class="tag">Meat</p>
+                <p class="tag">Seo tag</p>
+                <p class="tag">Fish</p>
+                <p class="tag">Seo tag</p>
+                <p class="tag">Fresh food</p>
+                <p class="tag">Lemons</p>
+            </div>
+        </section>
+
+        <div class="copyright">
+            <p>Copyright © 2020 petrbilek.com</p>
+        </div>
+    </footer>
+</body>
