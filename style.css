@@ -1226,7 +1226,7 @@ footer .copyright {
     color: #6A983C;
 }
 
-.full-prodinfo .add-div .count-block {
+.count-block {
     padding: 14px 16px;
     align-items: center;
     background: #F9F9F9;
@@ -1235,7 +1235,7 @@ footer .copyright {
     border-radius: 12px;
 }
 
-.full-prodinfo .add-div .count-block input[type="text"] {
+.count-block input[type="text"] {
     padding-right: 16px;
     width: 15px;
     border: none;
@@ -1243,31 +1243,31 @@ footer .copyright {
     background: #F9F9F9;
 }
 
-.full-prodinfo .add-div .count-block input[type="text"]::placeholder {
+.count-block input[type="text"]::placeholder {
     font: normal normal 400 14px/19px "Open Sans";
     color: #D1D1D1;
 }
 
-.full-prodinfo .add-div .count-block .check-count {
+.count-block .check-count {
     margin-left: 16px;
     cursor: pointer;
     align-items: center;
 }
 
-.full-prodinfo .add-div .count-block input[type="text"]:focus {
+.count-block input[type="text"]:focus {
     outline: none;
 }
 
-.full-prodinfo .add-div .count-block input[type="checkbox"] {
+.count-block input[type="checkbox"] {
     display: none;
 }
 
-.full-prodinfo .add-div .count-block .check-name {
+.count-block .check-name {
     margin-right: 4px;
     font: normal normal 600 12px/18px "Poppins";
 }
 
-.full-prodinfo .add-div .count-block input~.check-icon {
+.count-block input~.check-icon {
     width: 12px;
     height: 12px;
     background: url("icons/arrow-black-small-down.svg");
@@ -1428,4 +1428,269 @@ footer .copyright {
 
 .full-prodinfo .big-description .vitamins td:first-child {
     width: 37%;
+}
+
+.billing-order {
+    padding: 16px 45px;
+}
+
+.billing-order .step-form {
+    margin-bottom: 64px;
+}
+
+.billing-order .billing-form {
+    margin-right: 32px;
+    flex: 1.43;
+}
+
+.billing-order .order-sum {
+    flex: 1;
+}
+
+.billing-order .title {
+    margin-bottom: 4px;
+    font: normal normal 600 22px/33px "Poppins";
+}
+
+.billing-order .caption-row {
+    margin-bottom: 32px;
+    justify-content: space-between;
+    font: normal normal 400 12px/16px "Open Sans";
+    color: #A9A9A9;
+}
+
+.billing-order .order-form .row {
+    margin-bottom: 32px;
+}
+
+.billing-order .order-form label {
+    margin-right: 32px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.billing-order .order-form label:last-child {
+    margin-right: 0;
+}
+
+.billing-order .label {
+    font: normal normal 600 12px/18px "Poppins";
+}
+
+.billing-order .order-form input[type="text"] {
+    padding: 11px 16px 12px 21px;
+    background: #F9F9F9;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+}
+
+.billing-order .order-form input::placeholder {
+    font: normal normal 400 14px/19px "Open Sans";
+    color: #A9A9A9;
+}
+
+.billing-order .order-form input:focus {
+    outline: none;
+}
+
+.billing-order .order-form .select input {
+    display: none;
+}
+
+.billing-order .order-form .select {
+    margin-right: 32px;
+    flex: 1;
+}
+
+.billing-order .order-form .select .input-div {
+    margin-bottom: 0;
+    padding: 9px 16px 10px 21px;
+    align-items: center;
+    font: normal normal 400 14px/19px "Open Sans";
+    color: #D1D1D1;
+    background: #F9F9F9;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+}
+
+.billing-order .order-form .select .placeholder {
+    margin-right: 12px;
+    flex: 1;
+}
+
+.billing-order .order-form .select .check-icon {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    background: url("icons/state-sel-icon.svg");
+}
+
+.billing-order .order-form .check-ship {
+    margin-bottom: 0;
+    width: 70%;
+}
+
+.billing-order .check-ship input {
+    display: none;
+}
+
+.billing-order .check-ship label {
+    cursor: pointer;
+    margin-bottom: 0;
+    flex: 0.5;
+    padding: 9px 16px;
+    flex-direction: row;
+    align-items: center;
+    background: #F9F9F9;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+}
+
+.billing-order .check-ship .label {
+    font: normal normal 400 14px/19px "Open Sans";
+}
+
+.billing-order .check-ship input~.check-icon {
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    background: url("icons/uncheked.svg");
+    transition: all 0.3s ease;
+}
+
+.billing-order .check-ship input:checked~.check-icon {
+    background: url("icons/checked.svg");
+    transition: all 0.3s ease;
+}
+
+.billing-order .billing-method .radio-pay .select-method {
+    margin-bottom: 16px;
+}
+
+.billing-order .billing-method .radio-pay .select-method:last-child {
+    margin-bottom: 0;
+}
+
+.billing-order .billing-method .label-radio input {
+    display: none;
+}
+
+.billing-order .billing-method .label-radio {
+    flex: 1;
+    cursor: pointer;
+    padding: 12px 16px;
+    align-items: center;
+    background: #F9F9F9;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+}
+
+.billing-order .billing-method input~.radio-icon {
+    margin-right: 16px;
+    width: 24px;
+    height: 24px;
+    background: url("icons/radio-inactive.svg");
+}
+
+.billing-order .billing-method input:checked~.radio-icon {
+    background: url("icons/radio-green-active.svg");
+}
+
+.billing-order .billing-method .label-radio p {
+    font: normal normal 600 12px/18px "Poppins";
+}
+
+.billing-order .billing-method .label-radio .plus-price {
+    color: #6A983C;
+}
+
+
+/* тут не забыть сделать свойства для карты */
+
+.billing-order .add-info .text-label {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.billing-order .add-info textarea {
+    padding: 11px 21px;
+    /* width: 100%; */
+    height: 112px;
+    background: #F9F9F9;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+}
+
+.billing-order .add-info textarea::placeholder {
+    font: normal normal 400 14px/19px "Open Sans";
+    color: #A9A9A9;
+}
+
+.billing-order .add-info textarea:focus {
+    outline: none;
+}
+
+.billing-order .confirmation .check-ship {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.billing-order .confirmation .check-ship:nth-of-type(3) {
+    margin-bottom: 32px;
+}
+
+.billing-order .confirmation .check-ship label {}
+
+.billing-order .confirmation .check-ship .agree {
+    font: normal normal 400 14px/19px "Open Sans";
+}
+
+.billing-order .confirmation .check-ship a {
+    color: #151515;
+}
+
+.billing-order .safe {
+    margin-top: 32px;
+    width: 213px;
+}
+
+.billing-order .safe p {
+    font: normal normal 400 12px/16px "Open Sans";
+    color: #A9A9A9;
+}
+
+.billing-order .safe p.bold {
+    margin-top: 8px;
+    margin-bottom: 2px;
+    font: normal normal 600 12px/18px "Poppins";
+    color: #151515;
+}
+
+
+/* правый блок страницы Checkout  */
+
+.billing-order .order-sum {
+    padding: 32px 16px;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+}
+
+.billing-order .order-sum .caption {
+    margin-bottom: 40px;
+    font: normal normal 400 12px/16px "Open Sans";
+    color: #A9A9A9;
+}
+
+.billing-order .order-sum .column-1 {
+    margin-right: 16px;
+}
+
+.billing-order .order-sum .img-sub {
+    margin-bottom: 12px;
+    width: 100px;
+    height: 67px;
+    background: #F9F9F9;
+    border-radius: 12px;
 }
