@@ -1694,3 +1694,32 @@ footer .copyright {
     background: #F9F9F9;
     border-radius: 12px;
 }
+
+.billing-order .order-sum .check-wish {
+    cursor: pointer;
+    align-items: center;
+}
+
+.billing-order .order-sum .wish-btn input {
+    display: none;
+}
+
+.billing-order .order-sum .wish-btn input~.check-icon {
+    margin-right: 6px;
+    width: 12px;
+    height: 12px;
+    background: url("icons/heart-small.svg") no-repeat center;
+    transform: scale(1);
+    transition: background 0.2s, transform 0.3s;
+}
+
+.billing-order .order-sum .wish-btn input:checked~.check-icon {
+    background: url("icons/heart-small-red.svg") no-repeat center;
+    transform: scale(1.1) rotate(360deg);
+    transition: background 0.2s, transform 0.3s;
+}
+
+.billing-order .order-sum .check-wish .check-name {
+    font: normal normal 400 12px/16px "Open Sans";
+    color: #A9A9A9;
+}
