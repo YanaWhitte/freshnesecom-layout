@@ -1715,6 +1715,7 @@ footer .copyright {
     padding: 11px 21px;
     width: 100%;
     height: 112px;
+    resize: vertical;
     background: #F9F9F9;
     box-sizing: border-box;
     border: 1px solid #D1D1D1;
