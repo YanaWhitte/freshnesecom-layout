@@ -1967,6 +1967,7 @@ footer .copyright {
 }
 
 .top-blog .posts-row .big-blog-card.card-2 {
+    margin-right: 0;
     background: url('img/big-blog-img-2.png') no-repeat center;
     background-size: cover;
     border-radius: 12px;
@@ -2041,8 +2042,22 @@ footer .copyright {
     margin-bottom: 32px;
 }
 
+.blog-section .blog-posts .posts-row:last-child {
+    margin-bottom: 0;
+}
+
 .blog-section .blog-posts .medium-blog-card {
     flex: 1;
+    margin-right: 32px;
+}
+
+.blog-section .blog-posts .medium-blog-card:last-child {
+    margin: 0;
+}
+
+.blog-section .blog-posts .medium-blog-card img {
+    width: 100%;
+    height: auto;
 }
 
 .blog-section .blog-posts .medium-blog-card .green-tag {
