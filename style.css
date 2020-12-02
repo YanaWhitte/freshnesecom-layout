@@ -133,6 +133,7 @@ nav.main-nav {
 nav.main-nav .menu-item {
     cursor: pointer;
     margin-right: 40px;
+    align-items: center;
 }
 
 nav.main-nav .menu-item a {
