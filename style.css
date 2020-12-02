@@ -1995,6 +1995,7 @@ footer .copyright {
 
 .blog-section .blog-menu .list a {
     margin-bottom: 12px;
+    font: normal normal 400 14px/19px "Open Sans";
 }
 
 .blog-section .blog-menu .list a:last-child {
@@ -2003,6 +2004,7 @@ footer .copyright {
 
 .blog-section .blog-menu .category-list a,
 .blog-section .blog-menu .join-list .caption {
+    font: normal normal 400 14px/19px "Open Sans";
     color: #A9A9A9;
 }
 
