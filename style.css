@@ -441,7 +441,7 @@ nav.main-nav .menu-item img {
     border-radius: 12px;
 }
 
-.blog-post-section .posts-row .column-1 {
+.blog-post-section .posts-row .big-blog-card {
     flex: 4;
     position: relative;
     margin-right: 31.5px;
@@ -453,28 +453,28 @@ nav.main-nav .menu-item img {
     border-radius: 12px;
 }
 
-.blog-post-section .posts-row .column-1 .bottom {
+.blog-post-section .posts-row .big-blog-card .bottom {
     z-index: 3;
 }
 
-.blog-post-section .posts-row .column-1 .post-title {
+.blog-post-section .posts-row .big-blog-card .post-title {
     margin-bottom: 8px;
     font: normal normal 600 22px/33px "Poppins";
     color: #FFFFFF;
 }
 
-.blog-post-section .posts-row .column-1 .author-row {
+.blog-post-section .posts-row .big-blog-card .author-row {
     align-items: center;
     font: normal normal 400 12px/16px "Open Sans";
     color: #FFFFFF;
 }
 
-.blog-post-section .posts-row .column-1 .author-row .author-name {
+.blog-post-section .posts-row .big-blog-card .author-row .author-name {
     margin-left: 8px;
     margin-right: 16px;
 }
 
-.blog-post-section .posts-row .column-1 .gradient {
+.blog-post-section .posts-row .big-blog-card .gradient {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -484,33 +484,33 @@ nav.main-nav .menu-item img {
     border-radius: 12px;
 }
 
-.blog-post-section .posts-row .column-2 {
+.blog-post-section .posts-row .medium-blog-card {
     flex: 2;
     margin-right: 31.5px;
 }
 
-.blog-post-section .posts-row .column-2 img {
+.blog-post-section .posts-row .medium-blog-card img {
     width: 100%;
     height: auto;
 }
 
-.blog-post-section .posts-row .column-2 .tag {
+.blog-post-section .posts-row .medium-blog-card .tag {
     margin-top: 24px;
     margin-bottom: 8px;
 }
 
-.blog-post-section .posts-row .column-2 .post-title {
+.blog-post-section .posts-row .medium-blog-card .post-title {
     /* min-width: 269px; */
     margin-bottom: 16px;
     font: normal normal 600 18px/27px "Poppins";
 }
 
-.blog-post-section .posts-row .column-2 .author-row {
+.blog-post-section .posts-row .medium-blog-card .author-row {
     align-items: center;
     font: normal normal 400 12px/16px "Open Sans";
 }
 
-.blog-post-section .posts-row .column-2 .author-row .author-name {
+.blog-post-section .posts-row .medium-blog-card .author-row .author-name {
     margin-right: 16px;
 }
 
@@ -574,6 +574,10 @@ footer .links-section ul li {
 footer .links-section .link {
     text-decoration: none;
     font: normal normal 400 14px/19px "Open Sans";
+}
+
+footer .links-section .link:hover {
+    text-decoration: underline;
 }
 
 footer .tags-section {
@@ -682,6 +686,7 @@ footer .copyright {
 }
 
 .green-tag {
+    display: inline-block;
     cursor: pointer;
     padding: 0 8px;
     font: normal normal 600 12px/18px "Poppins";
@@ -1954,4 +1959,97 @@ footer .copyright {
 
 .footer-checkout .copyright {
     font: normal normal 400 14px/19px "Open Sans";
+}
+
+.top-blog {
+    padding: 48px 45px;
+}
+
+.top-blog .posts-row .big-blog-card.card-2 {
+    background: url('img/big-blog-img-2.png') no-repeat center;
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.blog-section {
+    padding: 48px 45px;
+}
+
+.blog-section .title {
+    margin-bottom: 16px;
+    font: normal normal 600 18px/27px "Poppins";
+}
+
+.blog-section .blog-menu {
+    margin-right: 32px;
+    flex: 1;
+}
+
+.blog-section .blog-posts {
+    flex: 3;
+}
+
+.blog-section .blog-menu .list {
+    margin-bottom: 48px;
+}
+
+.blog-section .blog-menu .list a {
+    margin-bottom: 12px;
+}
+
+.blog-section .blog-menu .list a:last-child {
+    margin-bottom: 0;
+}
+
+.blog-section .blog-menu .category-list a,
+.blog-section .blog-menu .join-list .caption {
+    color: #A9A9A9;
+}
+
+.blog-section .blog-menu .subscribe-btn {
+    margin-top: 24px;
+    padding: 11px 16px 12px 21px;
+    justify-content: space-between;
+    background: #F9F9F9;
+    border: 1px solid #D1D1D1;
+    border-radius: 12px;
+}
+
+.blog-section .blog-menu .subscribe-btn input {
+    border: none;
+    background: #F9F9F9;
+}
+
+.blog-section .blog-menu .subscribe-btn input:focus {
+    outline: none;
+}
+
+.blog-section .blog-menu .subscribe-btn input::placeholder {
+    font: normal normal 400 14px/19px "Open Sans";
+    color: #A9A9A9;
+}
+
+.blog-section .blog-menu .subscribe-btn .sub-btn {
+    cursor: pointer;
+    font: normal normal 700 15px/22px "Poppins";
+}
+
+.blog-section .blog-posts .posts-row {
+    margin-bottom: 32px;
+}
+
+.blog-section .blog-posts .medium-blog-card {
+    flex: 1;
+}
+
+.blog-section .blog-posts .medium-blog-card .green-tag {
+    margin: 24px 0 8px;
+}
+
+.blog-section .blog-posts .medium-blog-card .author-row {
+    font: normal normal 400 12px/16px "Open Sans";
+}
+
+.blog-section .blog-posts .medium-blog-card .author-name {
+    margin-right: 16px;
 }
